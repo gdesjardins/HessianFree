@@ -34,7 +34,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 from theano import function, shared
 from theano.sandbox.rng_mrg import MRG_RandomStreams as RandomStreams
-from math import isnan,isinf
+from numpy import isnan,isinf
 
 import theano.tensor as T
 import theano
